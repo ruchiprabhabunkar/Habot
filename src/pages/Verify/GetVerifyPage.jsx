@@ -12,7 +12,7 @@ const FAQPage = () => {
       </div>
 
       {/* Right Section */}
-      <button className="bg-orange-500 text-white text-base w-52 font-semibold px-4 py-2 rounded-md hover:bg-orange-600 transition">
+      <button className="bg-[#EB7150] text-white text-base w-52 font-semibold px-4 py-2 rounded-md hover:bg-orange-600 transition">
         Get Verified
       </button>
     </div>

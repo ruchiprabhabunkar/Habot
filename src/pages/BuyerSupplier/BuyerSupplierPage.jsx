@@ -19,7 +19,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="bg-blue-900 text-white py-16 px-4 sm:px-8">
+    <div className="bg-[#072F57] text-white py-16 px-4 sm:px-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left Section: Video or Image */}
         <div className="flex justify-center">
@@ -46,8 +46,8 @@ const ContactPage = () => {
                 onClick={toggleTab}
                 className={`text-lg md:text-2xl font-bold pb-1 mb-5 w-32 sm:w-52 ${
                   activeTab === btn.id
-                    ? "text-orange-500 border-b-2 border-orange-500"
-                    : "text-gray-300"
+                    ? "text-[#EB7150] border-b-2 border-[#EB7150]"
+                    : "text-[#FFFFFF]"
                 }`}
               >
                 {btn.label}
